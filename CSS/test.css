@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    /* background-color: darkslategray; */
+    grid-template-columns: 200px 100px 100px 200px;
+    grid-template-rows: repeat(10, 30px);
+}
+.container > div > .item1 {
+    border: 2px solid yellow;
+}
